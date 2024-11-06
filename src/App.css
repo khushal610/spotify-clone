@@ -1,0 +1,95 @@
+::-webkit-scrollbar{
+    width: 10px;
+    /* background-color: white; */
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+
+.rightTopPanel{
+    width: 73.67%;
+    height: 100% auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.rightMainBody{
+    /* overflow-y: scroll; */
+    overflow: hidden;
+    height: 84vh;
+}
+
+.rightCardBodyPanel{
+    margin-top: 75px;
+    height:100% auto;
+    background-size: cover;
+    overflow-y: scroll;
+    background-color: rgba(117, 117, 117, 0.2);
+}
+
+
+.card:hover{
+    background: linear-gradient(rgba(20, 20, 20,0.3) 60%,rgba(117, 117, 117, 0.2));
+}
+
+.imgContainer{
+    position: relative;
+}
+
+.play-btn{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(30, 214, 94);
+    top: 65%;
+    right: 10%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: 0.1s;
+
+}
+.play-btn:hover{
+    scale:1.05;
+}
+.card:hover > .imgContainer >.play-btn {
+    display: block;
+    display: flex;
+}
+
+
+
+.footer-panel-body{
+    position: absolute;
+    bottom: 0%;
+}
+
+.footer-panel-container{
+    width: 99%;
+    background: linear-gradient(120deg,#ab2e9c,#5891ed);
+}
+
+.sign-up-page{
+    background-color: rgb(18, 18, 18);
+}
+
+.line1{
+    width: 90%;
+}
+
+
+.login-container,.login-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-body{
+    background: linear-gradient(rgba(100, 100, 100, 0.3),rgba(0,0,0,0.6));
+}
+.login-container,.login-footer{
+    background-color: rgb(18, 18, 18);
+}
